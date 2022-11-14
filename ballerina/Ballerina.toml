@@ -1,0 +1,20 @@
+[package]
+org = "crates"
+name = "mustache"
+version = "1.0.2"
+distribution = "2201.2.0"
+authors = ["Mohamed Sabthar (@MohamedSabthar)"]
+repository = "https://github.com/MohamedSabthar/mustache"
+license = ["Apache-2.0"]
+
+[[platform.java11.dependency]]
+path = "../native/build/libs/mustache-native-1.0.2-SNAPSHOT.jar"
+groupId = "io.ballerina.xlibb"
+artifactId = "mustache-native"
+version = "1.0.2"
+
+[[platform.java11.dependency]]
+path = "./lib/compiler-0.9.10.jar"
+groupId = "com.github.spullara.mustache.java"
+artifactId = "compiler"
+version = "0.9.10"

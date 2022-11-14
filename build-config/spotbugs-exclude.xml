@@ -1,0 +1,7 @@
+<FindBugsFilter>
+    <Match>
+        <Bug pattern="BC_UNCONFIRMED_CAST"/>
+        <Class name="io.ballerina.xlibb.mustache.Utils"/>
+        <Method name="convert"/>
+    </Match>
+</FindBugsFilter>
